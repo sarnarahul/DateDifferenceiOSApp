@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160E05F518C811EC00768B63 /* paperBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 160E05F418C811EC00768B63 /* paperBack.png */; };
+		160E05F718C8125B00768B63 /* 254-old-paper-floral-vector-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 160E05F618C8125B00768B63 /* 254-old-paper-floral-vector-background.jpg */; };
 		163E37D118C6637800C44D89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163E37D018C6637800C44D89 /* Foundation.framework */; };
 		163E37D318C6637800C44D89 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163E37D218C6637800C44D89 /* CoreGraphics.framework */; };
 		163E37D518C6637800C44D89 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163E37D418C6637800C44D89 /* UIKit.framework */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160E05F418C811EC00768B63 /* paperBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paperBack.png; sourceTree = "<group>"; };
+		160E05F618C8125B00768B63 /* 254-old-paper-floral-vector-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "254-old-paper-floral-vector-background.jpg"; sourceTree = "<group>"; };
 		163E37CD18C6637800C44D89 /* RSarna_calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSarna_calc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163E37D018C6637800C44D89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		163E37D218C6637800C44D89 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +116,8 @@
 		163E37D618C6637800C44D89 /* RSarna_calc */ = {
 			isa = PBXGroup;
 			children = (
+				160E05F418C811EC00768B63 /* paperBack.png */,
+				160E05F618C8125B00768B63 /* 254-old-paper-floral-vector-background.jpg */,
 				163E37DF18C6637800C44D89 /* AppDelegate.h */,
 				163E37E018C6637800C44D89 /* AppDelegate.m */,
 				163E37E218C6637800C44D89 /* Main.storyboard */,
@@ -230,7 +236,9 @@
 			files = (
 				163E37E918C6637800C44D89 /* Images.xcassets in Resources */,
 				163E37DB18C6637800C44D89 /* InfoPlist.strings in Resources */,
+				160E05F718C8125B00768B63 /* 254-old-paper-floral-vector-background.jpg in Resources */,
 				163E37E418C6637800C44D89 /* Main.storyboard in Resources */,
+				160E05F518C811EC00768B63 /* paperBack.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +468,7 @@
 				163E380118C6637800C44D89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		163E380218C6637800C44D89 /* Build configuration list for PBXNativeTarget "RSarna_calcTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				163E380418C6637800C44D89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

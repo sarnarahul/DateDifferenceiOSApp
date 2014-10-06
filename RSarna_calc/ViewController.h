@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIDatePicker *startDatePicker;
+@property (strong, nonatomic) IBOutlet UIDatePicker *endDatePicker;
+@property (strong, nonatomic) IBOutlet UILabel *dateDifference;
+
+
 @end
